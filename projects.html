@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <header class="header-content">
+             <a href="#logo" class="logo">
+                 <img src="logo.png" alt="logo" class="logo-icon">
+                 <span class="logo-text">Portfolio</span>
+             </a>
+             <nav class="nav">
+                 <a href="index.html" class="nav-link">Home</a>
+                 <a href="skills.html" class="nav-link">Skills</a>
+                 <a href="experience.html" class="nav-link">Experience</a>
+                 <a href="projects.html" class="nav-link">Projects</a>
+                 <a href="education.html" class="nav-link">Education</a>
+             </nav>
+             <div class="dropdown">
+              <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="dropdown-content">
+              <a href="index.html" class="nav-link">Home</a>
+              <a href="skills.html" class="nav-link">Skills</a>
+              <a href="experience.html" class="nav-link">Experience</a>
+              <a href="projects.html" class="nav-link">Projects</a>
+              <a href="education.html" class="nav-link">Education</a>
+            </div>
+         </div>
+        </header>
+    </div>
+    <div class="moving-heading">
+      <h4 class="move-head">Ready to turn ideas into interactive masterpieces--one pixel at a time.<img src="rocket.jpg" width="20" height="20"></h4>
+    </div>
+    <section id ="projects-section">
+            <h3><img src="project-icon-png.jpg" alt="project-icon" width="30" height ="20">Projects</h3>
+            <ul class="nameofprojects">
+                <li>My own portfolio</li>
+                <li>https://www.anytimeastro.com/puja </li>
+                <li>Blog Webpage</li>
+                <li>Recipie Webpage</li>
+                <li>Responsive Design</li>
+                <li>Leetcode project</li>
+           </ul>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img class="mySlides" src="portfolio-page.jpeg" width="400" height="250">
+                    </div>
+                  <div class="slide">
+                    <img class="mySlides" src="anytime_astro.jpeg" width="400" height="250">
+                  </div>
+                  <div class="slide">
+                    <img class="mySlides" src="online-puja.jpeg" width="400" height="250">
+                  </div>
+                  <div class="slide">
+                    <img class="mySlides" src="blog_website.jpeg" width="400" height="250">
+                  </div>
+                  <div class="slide">
+                    <img class="mySlides" src="responsive design.jpeg" width="400" height="250">
+                  </div>
+                  <div class="slide">
+                    <img class="mySlides" src="leetcode.jpeg" width="400" height="250">
+                  </div>
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+              </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
